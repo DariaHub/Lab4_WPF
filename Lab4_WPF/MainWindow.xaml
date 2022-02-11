@@ -1,0 +1,15 @@
+﻿<Window x:Class="Lab4_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab4_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="tbMain" HorizontalAlignment="Left" Height="36" Margin="275,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Initialized="tbMain_Initialized" Loaded="tbMain_Loaded" MouseDoubleClick="tbMain_MouseDoubleClick" MouseDown="tbMain_MouseDown"  TextChanged="tbMain_TextChanged" Unloaded="tbMain_Unloaded" GotFocus="tbMain_GotFocus" LostFocus="tbMain_LostFocus"/>
+        <TextBox x:Name="tbVsp" HorizontalAlignment="Left" Height="136" Margin="275,204,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236" Loaded="tbVsp_Loaded"/>
+        <CheckBox x:Name="checkBox" Content="Скрыть элемент" HorizontalAlignment="Left" Margin="563,204,0,0" VerticalAlignment="Top" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
+
+    </Grid>
+</Window>
